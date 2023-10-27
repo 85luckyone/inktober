@@ -92,6 +92,7 @@ h1 {
 .container {
     background-color: white;
     margin: auto;
+    text-align: center;
 }
 
 .banner {
@@ -120,6 +121,17 @@ h3 {
     padding: 20px 0;
 }
 
+.promt{
+    width: 90%;
+    padding: 5%;
+    margin:auto;
+
+}
+.inkt-ruls{
+    text-align: left;
+    margin-left: 35%;
+    margin-right: auto;
+}
 
 /** content vége **/
 /**footer**/
