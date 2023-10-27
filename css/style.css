@@ -1,0 +1,182 @@
+.fejlec {
+    background-image: url(../image/fejlec.png);
+    background-position: top center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%
+}
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+    margin: 0;
+    text-shadow: 0px 0px 15px #fff;
+}
+
+.container {
+    background-color: white;
+}
+
+.topnav {
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.topnav div a {
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    padding: 10px 15px;
+    /*background-color: blueviolet;*/
+    display: inline-block;
+}
+
+.topnav div a:hover {
+    text-decoration: overline;
+}
+
+.topnav div a:active {
+    text-decoration: underline;
+}
+
+.topnav div a:focus,
+.topnav div a.active {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.topnav div {
+    float: left;
+    /*background-color: aqua;*/
+    margin-left: 15px;
+}
+
+.topnav div:first-child {
+    margin-left: 0;
+}
+
+@media (max-width:600px) {
+    .topnav div {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .topnav div:first-child {
+        margin-top: 0;
+    }
+}
+
+/** menü vége **/
+/** content **/
+.container {
+    background-color: white;
+    margin: auto;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+
+}
+
+.index{
+    display: block;
+    width: 100%;
+}
+
+.index-img{
+    
+    float: left;
+    width: 50%;
+}
+
+.img{
+    width: 90%;
+    padding: 5%;
+}
+h3 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/** content vége **/
+/**footer**/
+footer {
+    color: white;
+    margin: Auto;
+    display: block;
+    width: 100%;
+}
+
+.footer-col {
+    float: left;
+    width: 50%;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(88, 87, 87);
+}
+
+footer .social {
+    width: 50px;
+    display: inline-block;
+}
+
+
+/* reszponzív */
+@media only screen and (min-width: 769px) {
+    footer, .content {
+        max-width: 760px;
+    }
+}
+
+@media only screen and (max-width: 99apx) {
+    body {
+        font-size: large;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    footer, .container {
+        max-width: 990px;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    footer, .container {
+        max-width: 1400px;
+    }
+}
+
+@media only screen and (min-width: 1981px) {
+    footer, .container {
+        max-width: 1900px;
+    }
+}
