@@ -93,6 +93,8 @@ h1 {
     background-color: white;
     margin: auto;
     text-align: center;
+    font-size: 120%;
+    padding:0 5%;
 }
 
 .banner {
@@ -119,18 +121,27 @@ h1 {
 h3 {
     text-align: center;
     padding: 20px 0;
+    font-size: 140%;
 }
 
 .promt{
     width: 90%;
     padding: 5%;
     margin:auto;
-
 }
 .inkt-ruls{
     text-align: left;
     margin-left: 35%;
     margin-right: auto;
+}
+
+
+.img-jake{
+    width: 12%;
+    float: right;
+}
+.jake{
+    padding: 5%;
 }
 
 /** content vége **/
