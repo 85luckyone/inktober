@@ -26,7 +26,53 @@
             <a href="share.html" class="active">Oszd meg te is!</a>
         </div>
       </div>
-    <div class="container col-9">
+    <div class="container">
+        <p>
+            <h3>Oszd meg velünk az alkotásaid!</h3>
+            Mi is büszkék lehesssünk a hatalmas alkotó közösségünkre.
+        </p>
+        <Fieldset>
+            <legend>
+                Képek feltöltése
+            </legend>
+            <form action="post">
+                
+                <label for="email">Email:*</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="password">Password:*</label>
+                <input type="password" id="password" name="password" required>
+              
+                <label for="firm-image">Kép kiválasztása:</label>
+                <input type="file" id="firm-image" name="firm-image" accept="image/*">
+              
+                <input type="submit" class="btn-submit" value="Feltöltés">
+
+              </form>
+        </Fieldset>
+        <p>
+            Ha nem regisztráltál még az oldalunkon, itt megteheted!
+        </p>
+        <Fieldset>
+            <legend>
+                Regisztráció
+            </legend>
+            <form action="post">
+                <label for="name">Név:*</label>
+                <input type="text" id="name" name="name" required>
+              
+                <label for="email">Email:*</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Jelszó:*</label>
+                <input type="password" id="password" name="password" required>
+              
+                <label for="confirm-password">Jelszó újra:*</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+              
+                <input type="submit" class="btn-submit" value="Regisztráció">
+            </form>
+        </Fieldset>
         
         
     </div>
